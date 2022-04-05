@@ -48,12 +48,25 @@ public class FilesInOut {
         
         PrintWriter writer1 =null;      
         try {
-			writer1 = new PrintWriter(new File("C:\\Users\\johno_9297evi\\OneDrive\\Documents\\CSCU9A3\\Practical_1\\Checkpoint4\\src\\input.txt"));
+			writer1 = new PrintWriter(new File("C:\\Users\\johno_9297evi\\OneDrive\\Documents\\CSCU9A3\\Practical_1\\Checkpoint4\\src\\output.txt"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}  
-        writer1.write("C:\\Users\\johno_9297evi\\OneDrive\\Documents\\CSCU9A3\\Practical_1\\Checkpoint4\\output.txt");                                                   
+        writer1.write("allison wesley 28011990\r\n"
+        		+ "peter smith 05071992\r\n"
+        		+ "sophie brown 08071980\r\n"
+        		+ "emily wilson 01111976\r\n"
+        		+ "jack thomson 04101981\r\n"
+        		+ "olivia robertson 12021995\r\n"
+        		+ "lewis campbell 24101983\r\n"
+        		+ "daniel stewart 06091998\r\n"
+        		+ "lucy scott 08122003\r\n"
+        		+ "isla murray 26072000\r\n"
+        		+ "james clark 31101087\r\n"
+        		+ "lily mitchell 08051999\r\n"
+        		+ "harry gray 22081978\r\n"
+        		+ "amelia young 18041988");                                                   
                         writer1.flush();  
         writer1.close();  
         
